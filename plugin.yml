@@ -1,0 +1,28 @@
+name: JFactions
+main: io.github.javeh.jfac.JFac
+version: 1.0
+commands:
+  dev:
+    description: Developer command, tests whatever function needs testing.
+    usage: /dev
+  f:
+    description: Base command.
+    usage: /f
+  faction:
+    descripton: Base command.
+    usage: /faction
+  axe:
+    description: The tool of choice.
+    usage: /axe
+  refresh:
+    description: Syncs user with database
+    usage: /refresh
+  addpower:
+    description: Adds power to user
+    usage: /addpower <player> <level>
+  neutralzone:
+    description: you know what it is.
+    usage: /neutralzone
+  wipechunks:
+    description: Wipes the chunks of a faction
+    usage: /wipechunks <id>
